@@ -100,9 +100,33 @@ nav .flex {
   padding-left: 7px;
 }
 
-
 .grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-  
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+  top: 50px;
+}
+
+.showcase input[type="email"] {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border-color: #df617f;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: #df617f;
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}

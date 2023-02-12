@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #photos {
+            line-height: 0;
+            column-count: 5;
+            column-gap: 0px;
+        }
+
+
+        #photos img {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        @media (max-width: 1200px) {
+            #photos {
+                column-count: 4;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            #photos {
+                column-count: 3;
+            }
+        }
+
+        @media (max-width: 800px) {
+            #photos {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 400px) {
+            #photos {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Dogs</h1>
+    <section id="photos">
+        <img src="images/baptist-standaert-mx0DEnfYxic-unsplash.jpg" alt="Cute cat">
+        <img src="images/david-trinks-GhsWyTomDhU-unsplash.jpg" alt="Serious cat">
+        <img src="images/fabian-gieske-yobw-nedZ2s-unsplash.jpg" alt="Cute cat">
+        <img src="images/vincent-van-zalinge-vRNcSWIElE4-unsplash (1).jpg" alt="Serious cat">
+        <img src="images/david-trinks-GhsWyTomDhU-unsplash.jpg" alt="Cute cat">
+        <img src="images/chung-nguyen-DKHnBJyWCQ8-unsplash.jpg" alt="Serious cat">
+        <img src="images/dasha-urvachova-Aqt5-xyw-Sw-unsplash.jpg" alt="Cute cat">
+        <img src="images/josephine-menge-h7VBJRBcieM-unsplash.jpg" alt="Serious cat">
+        <img src="images/kulli-kittus-FI9J0gjJI_8-unsplash.jpg" alt="Serious cat">
+        <img src="images/ryan-walton-AbNO2iejoXA-unsplash.jpg" alt="Cute cat">
+    </section>
+
+</body>
+
+</html>

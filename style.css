@@ -199,3 +199,51 @@ nav .flex {
   color: #df617f;
   font-size: 42px;
 }
+
+.testimonial {
+  color: black;
+  padding: 40px;
+}
+
+
+.testimonial img {
+  height: 90px;
+  width: auto;
+  clip-path: circle();
+  object-fit: cover;
+  text-align: center;
+}
+
+
+.testimonial h3 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+}
+
+
+.card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2), 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.circle {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+

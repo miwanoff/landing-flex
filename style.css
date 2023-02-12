@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;500;600;800&display=swap");
+
+:root {
+  --main-color: #df617f;
+  --second-color: white;
+  --third-color: black;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,11 +19,11 @@ body {
 
 body {
   font-family: Inter, sans-serif;
-  color: white;
+  color: var(--second-color);
 }
 
 a {
-  color: black;
+  color: var(--third-color);
   text-decoration: none;
 }
 
@@ -51,6 +58,7 @@ ul.menu {
 }
 
 p {
+  color: var(--third-color);;
   font-size: 20px;
   margin: 10px 0;
 }
@@ -61,7 +69,7 @@ p {
 }
 
 nav {
-  background-color: #df617f;
+  background-color: var(--main-color);;
   height: 70px;
   padding: 10px;
 }
@@ -70,13 +78,13 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: var(--second-color);;
   padding: 10px;
   margin: 10px;
 }
 
 nav a:hover {
-  color: #df617f;
+  color: var(--main-color);;
 }
 
 nav h2 {
@@ -93,7 +101,7 @@ nav .flex {
 }
 .showcase {
   height: 300px;
-  background-color: #df617f;
+  background-color: var(--main-color);;
 }
 
 .showcase p {
@@ -118,7 +126,7 @@ nav .flex {
 .showcase input[type="email"] {
   padding: 10px 70px 10px 0;
   font-size: 14px;
-  border-color: #df617f;
+  border-color: var(--main-color);;
   border-radius: 6px;
   padding-left: 6px;
 }
@@ -126,10 +134,10 @@ nav .flex {
 .btn {
   border-radius: 6px;
   padding: 12px 20px;
-  background: #df617f;
+  background: var(--main-color);;
   border: none;
   margin-left: 10px;
-  color: white;
+  color: var(--second-color);;
   font-size: 16px;
   cursor: pointer;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -151,7 +159,7 @@ nav .flex {
 }
 
 .title {
-  color: black;
+  color: var(--third-color);
   font-size: 20px;
   text-align: left;
   padding-left: 10px;
@@ -159,7 +167,7 @@ nav .flex {
 }
 
 .text {
-  color: black;
+  color: var(--third-color);
   font-size: 19px;
   width: 100%;
   padding: 10px;
@@ -197,12 +205,12 @@ nav .flex {
 }
 
 .stats .fa-solid {
-  color: #df617f;
+  color: var(--main-color);;
   font-size: 42px;
 }
 
 .testimonial {
-  color: black;
+  color: var(--third-color);
   padding: 40px;
 }
 
@@ -229,7 +237,7 @@ nav .flex {
 
 .card {
   padding: 10px;
-  background-color: white;
+  background-color: var(--second-color);;
   border-radius: 10px;
   box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2), 7px 7px 20px rgba(0, 0, 0, 0.2);
 }
@@ -242,20 +250,20 @@ nav .flex {
 }
 
 footer {
-  background-color: #df617f;;
+  background-color: var(--main-color);
   padding: 20px 10px;
 }
 
 
 footer a {
-  color: white;
+  color: var(--second-color);
   margin: 0 10px;
 }
 
 
 footer a:hover {
-  color: white;
-  border-bottom: 2px solid white;
+  color: var(--second-color);
+  border-bottom: 2px solid var(--second-color);
 }
 
 .links ul {
